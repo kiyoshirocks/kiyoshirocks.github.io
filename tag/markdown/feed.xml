@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Kiyoshi.Rocks</title>
-  <subtitle>Kiyoshi learns to speak Ruby.&lt;br&gt;一介農夫&lt;br&gt;家常菜愛好者</subtitle>
+  <title>Kiyoshi.Rocks: markdown</title>
+  <subtitle>Posts tagged with markdown</subtitle>
   <id>https://kiyoshirocks.github.io</id>
   <link href="https://kiyoshirocks.github.io"/>
-  <link href="https://kiyoshirocks.github.io/feed.xml" rel="self"/>
+  <link href="https://kiyoshirocks.github.io/tag/markdown/feed.xml" rel="self"/>
   <updated>2018-04-27T15:14:00+08:00</updated>
   <author>
     <name>Kiyoshi.Rocks</name>
