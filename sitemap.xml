@@ -7,26 +7,68 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kiyoshirocks.github.io/2018/04/27/middleman-blog-on-github/index.html</loc>
+    <lastmod>2018-04-27T16:58:46+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kiyoshirocks.github.io/2018/04/27/time-zone/index.html</loc>
+    <lastmod>2018-04-27T17:14:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kiyoshirocks.github.io/2018/04/27/vegetable-pork-soup/index.html</loc>
+    <lastmod>2018-04-27T19:03:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kiyoshirocks.github.io/index.html</loc>
-    <lastmod>2018-04-27T15:29:32+08:00</lastmod>
+    <lastmod>2018-04-27T19:04:33+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kiyoshirocks.github.io/author/kiyoshi-rocks/index.html</loc>
-    <lastmod>2018-04-27T15:29:32+08:00</lastmod>
+    <lastmod>2018-04-27T19:04:33+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kiyoshirocks.github.io/tag/.html</loc>
+    <lastmod>2018-04-27T19:04:33+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kiyoshirocks.github.io/tag/.html</loc>
+    <lastmod>2018-04-27T19:04:33+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kiyoshirocks.github.io/tag/.html</loc>
+    <lastmod>2018-04-27T19:04:33+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kiyoshirocks.github.io/tag/.html</loc>
+    <lastmod>2018-04-27T19:04:33+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kiyoshirocks.github.io/tag/markdown/index.html</loc>
-    <lastmod>2018-04-27T15:29:32+08:00</lastmod>
+    <lastmod>2018-04-27T19:04:33+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kiyoshirocks.github.io/tag/middleman/index.html</loc>
-    <lastmod>2018-04-27T15:29:32+08:00</lastmod>
+    <lastmod>2018-04-27T19:04:33+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

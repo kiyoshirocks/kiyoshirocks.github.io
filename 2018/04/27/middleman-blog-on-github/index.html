@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kiyoshi.Rocks: 將middleman產生的Blog頁面放到github page</title>
+<meta content='參考資料 middleman-deploy v1.X 無法將 Middleman V4正常上傳至Github 按照以下步驟即可安裝完成 因為 middleman-deploy 1.x 無法正確deploy至Github 要將 middleman-deploy 升到 2.0.0 pre 才...' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<meta content='Kiyoshi.Rocks' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='將middleman產生的Blog頁面放到github page' property='og:title'>
+<meta content='參考資料 middleman-deploy v1.X 無法將 Middleman V4正常上傳至Github 按照以下步驟即可安裝完成 因為 middleman-deploy 1.x 無法正確deploy至Github 要將 middleman-deploy 升到 2.0.0 pre 才...' property='og:description'>
+<meta content='https://kiyoshirocks.github.io/2018/04/27/middleman-blog-on-github/' property='og:url'>
+<meta content='https://kiyoshirocks.github.io/images/cover.jpg' property='og:image'>
+<meta content='2018-04-27' property='article:published_time'>
+<meta content='summary' name='twitter:card'>
+<meta content='將middleman產生的Blog頁面放到github page' name='twitter:title'>
+<meta content='參考資料 middleman-deploy v1.X 無法將 Middleman V4正常上傳至Github 按照以下步驟即可安裝完成 因為 middleman-deploy 1.x 無法正確deploy至Github 要將 middleman-deploy 升到 2.0.0 pre 才...' name='twitter:description'>
+<meta content='https://kiyoshirocks.github.io/2018/04/27/middleman-blog-on-github/' name='twitter:url'>
+<meta content='https://kiyoshirocks.github.io/images/cover.jpg' name='twitter:image:src'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+<link href="/stylesheets/application.css" rel="stylesheet" />
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home'>
+<a href='/'>Home</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/feed.xml'>訂閱 RSS Feed</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header post-head' style='background-image: url(/images/cover.jpg)'>
+<nav class='clearfix main-nav overlay'>
+<a class='blog-logo' href='/'>
+<img src="/images/logo.png" alt="Kiyoshi.Rocks" />
+</a>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>將middleman產生的Blog頁面放到github page</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2018-04-27'>
+27 April 2018
+</time>
+</section>
+</header>
+<section class='post-content'><p><a href="http://elliotekj.com/2016/10/01/deploy-middleman-4-to-github-pages/" rel="nofollow">參考資料</a></p>
+
+<p>middleman-deploy v1.X
+無法將 Middleman V4正常上傳至Github</p>
+
+<p>按照以下步驟即可安裝完成</p>
+
+<p>因為 middleman-deploy 1.x 無法正確deploy至Github
+要將 middleman-deploy 升到 2.0.0 pre 才能夠正常啟用</p>
+
+<p>打開 Gemfile 修改 middleman-deploy 的安裝版本</p>
+<div class="highlight"><pre class="highlight plaintext"><code>gem 'middleman-deploy', '~&gt; 2.0.0.pre.alpha'
+</code></pre></div>
+<p>接下來就是開啟 middleman-deploy
+在 config.rb 中加入這一段，並將username改為自己的</p>
+<div class="highlight"><pre class="highlight plaintext"><code># Middleman-deploy configuration
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.remote = 'git@github.com:username/username.github.io.git'
+  deploy.branch = 'master'
+  deploy.build_before = true
+end
+</code></pre></div>
+<p>執行</p>
+<div class="highlight"><pre class="highlight plaintext"><code>$ git add .
+$ middleman deploy
+</code></pre></div>
+<p>連到 username.github.io 即可看到Deploy之後的成果</p>
+</section>
+<footer class='post-footer'>
+<figure class='author-image'>
+<a class='img' href='/author/kiyoshi-rocks/' style='background-image: url(https://www.gravatar.com/avatar/6b3f2cb44571111b86b65674c04fe575?size=68)'>
+<span class='hidden'>Kiyoshi.Rocks's Picture</span>
+</a>
+</figure>
+<section class='author'>
+<h4>
+<a href='/author/kiyoshi-rocks/'>Kiyoshi.Rocks</a>
+</h4>
+<p></p>
+<a href="https://dragonfruit.tw">一介農夫
+    </a>。<a href="https://kiyoshirocks.github.io">家常菜愛好者</a>。<a href="https://github.com/kiyoshirocks">My Github</a>
+<div class='author-meta'>
+<span class='author-location icon-location'>TW</span>
+<span class='author-link icon-link'>
+<a href='https://kiyoshirocks.github.io'>https://kiyoshirocks.github.io</a>
+</span>
+</div>
+</section>
+<section class='share'>
+<h4>分享這篇文章</h4>
+<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=將middleman產生的Blog頁面放到github page&amp;amp;url=https://kiyoshirocks.github.io/2018/04/27/middleman-blog-on-github/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=https://kiyoshirocks.github.io/2018/04/27/middleman-blog-on-github/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=https://kiyoshirocks.github.io/2018/04/27/middleman-blog-on-github/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+</article>
+</main>
+<aside class='read-next'>
+<a class='read-next-story' href='/2018/04/27/hello-world/' style='background-image: url(/images/cover.jpg)'>
+<section class='post'>
+<h2>Hello, world. Markdown.</h2>
+<p>Hello World. Markdown. 兩年前第一次使用 Middleman 作為靜態 Blog 才發現，以 Markdown 作為寫作用的工具其實很簡單寫意， Markdown 是為了易讀易寫而存在的，作為開發人員，只要有編輯器，就能準備好一篇原始碼如初步排版過的文章，不會影響閱讀。 而且 Github 上都用 Markdown 寫 README 文件，直接在&hellip;</p>
+</section>
+</a>
+<a class='read-next-story prev' href='/2018/04/27/time-zone/' style='background-image: url(/images/markus-spiske-187777-unsplash.jpg)'>
+<section class='post'>
+<h2>Middleman-blog 使用心得： 不受控的 Time.zone</h2>
+<p>對台北時區來說，殘念的時區功能 嘗試了很久， middlman-blog 的 Time.zone 功能還是殘念。與其自己想辦法改，還是先用預設的 UTC 標準時間吧，日期只是參考。 據說其他時區的沒有遇到 frontmatter 與文章裡產生的時間不合的問題，我的情形是正常產生了第一篇之後，剩下就 mismatch 到了宇宙洪荒之竟，久久不能自己。 就先把 Time.zone 設定給去掉了。說真的文章的日期時間沒有依照自己想要的時區呈現，只要把小時以下拿掉，影響其實還好，但覺得有個問題還在，真的心裡不舒服。 哪天自己有時間有空改好了，再說吧。&hellip;</p>
+</section>
+</a>
+</aside>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/'>Kiyoshi.Rocks</a>
+&copy;
+2018
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js"></script>
+</body>
+</html>

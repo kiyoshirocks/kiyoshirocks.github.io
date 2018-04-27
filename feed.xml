@@ -5,10 +5,99 @@
   <id>https://kiyoshirocks.github.io</id>
   <link href="https://kiyoshirocks.github.io"/>
   <link href="https://kiyoshirocks.github.io/feed.xml" rel="self"/>
-  <updated>2018-04-27T15:14:00+08:00</updated>
+  <updated>2018-04-27T17:33:00+08:00</updated>
   <author>
     <name>Kiyoshi.Rocks</name>
   </author>
+  <entry>
+    <title>蔬菜南瓜豬肉湯</title>
+    <link rel="alternate" href="https://kiyoshirocks.github.io/2018/04/27/vegetable-pork-soup/"/>
+    <id>https://kiyoshirocks.github.io/2018/04/27/vegetable-pork-soup/</id>
+    <published>2018-04-27T17:33:00+08:00</published>
+    <updated>2018-04-27T19:03:41+08:00</updated>
+    <author>
+      <name>Kiyoshi.Rocks</name>
+    </author>
+    <summary type="html">最近可以輕易買到不錯的南瓜，常常可以在餐桌上看到南瓜。而我最常做的懶人料理應該就是蔬菜南瓜豬肉湯了。
+
+蔬菜南瓜豬肉湯（三到四人份）
+
+材料
+
+（大約估計，可依實際狀況加減）
+
+
+南瓜 200克
+豬肉（梅花或五花）200克其實排骨也不錯，豬肋條其實是極品
+可以混搭的蔬菜如大白菜切絲切片、紅白蘿蔔少許、鮮菇幾朵等
+辛香料
+
+
+洋蔥
+蔥青
+蒜
+
+
+調味料
+
+
+鹽
+味霖
+醬油
+胡椒
+麻油（選配）
+
+
+
+
+作法
+
+
+豬肉放入冷水鍋裡，煮沸約十分鐘關火，撈起放涼，留下肉湯。
+南瓜去瓜囊，蔬菜去皮去不可吃的部位
+</summary>
+  </entry>
+  <entry>
+    <title>Middleman-blog 使用心得： 不受控的 Time.zone</title>
+    <link rel="alternate" href="https://kiyoshirocks.github.io/2018/04/27/time-zone/"/>
+    <id>https://kiyoshirocks.github.io/2018/04/27/time-zone/</id>
+    <published>2018-04-27T16:57:00+08:00</published>
+    <updated>2018-04-27T17:14:07+08:00</updated>
+    <author>
+      <name>Kiyoshi.Rocks</name>
+    </author>
+    <summary type="html">對台北時區來說，殘念的時區功能
+
+嘗試了很久， middlman-blog 的 Time.zone 功能還是殘念。與其自己想辦法改，還是先用預設的 UTC 標準時間吧，日期只是參考。
+
+據說其他時區的沒有遇到 frontmatter 與文章裡產生的時間不合的問題，我的情形是正常產生了第一篇之後，剩下就 mismatch 到了宇宙洪荒之竟，久久不能自己。
+
+就先把 Time.zone 設定給去掉了。說真的文章的日期時間沒有依照自己想要的時區呈現，只要把小時以下拿掉，影響其實還好，但覺得有個問題還在</summary>
+  </entry>
+  <entry>
+    <title>將middleman產生的Blog頁面放到github page</title>
+    <link rel="alternate" href="https://kiyoshirocks.github.io/2018/04/27/middleman-blog-on-github/"/>
+    <id>https://kiyoshirocks.github.io/2018/04/27/middleman-blog-on-github/</id>
+    <published>2018-04-27T16:45:00+08:00</published>
+    <updated>2018-04-27T16:58:46+08:00</updated>
+    <author>
+      <name>Kiyoshi.Rocks</name>
+    </author>
+    <summary type="html">參考資料
+
+middleman-deploy v1.X
+無法將 Middleman V4正常上傳至Github
+
+按照以下步驟即可安裝完成
+
+因為 middleman-deploy 1.x 無法正確deploy至Github
+要將 middleman-deploy 升到 2.0.0 pre 才能夠正常啟用
+
+打開 Gemfile 修改 middleman-deploy 的安裝版本
+gem 'middleman-deploy', '~&amp;gt; 2.0.0.pre.alpha'
+
+接下來就是開啟 middleman</summary>
+  </entry>
   <entry>
     <title>Hello, world. Markdown.</title>
     <link rel="alternate" href="https://kiyoshirocks.github.io/2018/04/27/hello-world/"/>
