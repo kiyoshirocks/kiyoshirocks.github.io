@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kiyoshi.Rocks</title>
+  <subtitle>Kiyoshi learns to speak Ruby.&lt;br&gt;一介農夫&lt;br&gt;家常菜愛好者</subtitle>
+  <id>https://kiyoshirocks.github.io</id>
+  <link href="https://kiyoshirocks.github.io"/>
+  <link href="https://kiyoshirocks.github.io/feed.xml" rel="self"/>
+  <author>
+    <name>Kiyoshi.Rocks</name>
+  </author>
+</feed>
