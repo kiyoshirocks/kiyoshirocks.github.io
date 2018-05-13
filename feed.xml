@@ -5,10 +5,27 @@
   <id>https://kiyoshirocks.github.io</id>
   <link href="https://kiyoshirocks.github.io"/>
   <link href="https://kiyoshirocks.github.io/feed.xml" rel="self"/>
-  <updated>2018-05-13T14:02:00+08:00</updated>
+  <updated>2018-05-13T23:31:00+08:00</updated>
   <author>
     <name>Kiyoshi.Rocks</name>
   </author>
+  <entry>
+    <title>閱讀#1</title>
+    <link rel="alternate" href="https://kiyoshirocks.github.io/2018/05/13/reading_-1/"/>
+    <id>https://kiyoshirocks.github.io/2018/05/13/reading_-1/</id>
+    <published>2018-05-13T23:31:00+08:00</published>
+    <updated>2018-05-14T00:34:48+08:00</updated>
+    <author>
+      <name>Kiyoshi.Rocks</name>
+    </author>
+    <summary type="html">Photo by Patrick Tomasso on Unsplas
+
+今日閱讀到這樣的東西，來自 Paul Graham：
+
+
+When you have an idea for a startup, ask yourself: who wants this right now?  Who wants this so much that they’ll use it even when it’s a crappy version one made by a two-person startup
+</summary>
+  </entry>
   <entry>
     <title>Learning Ruby</title>
     <link rel="alternate" href="https://kiyoshirocks.github.io/2018/05/13/learning_ruby/"/>
