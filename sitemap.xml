@@ -25,14 +25,20 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kiyoshirocks.github.io/2018/05/13/learning_ruby/index.html</loc>
+    <lastmod>2018-05-13T14:10:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kiyoshirocks.github.io/index.html</loc>
-    <lastmod>2018-04-27T19:11:46+08:00</lastmod>
+    <lastmod>2018-05-13T14:11:29+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kiyoshirocks.github.io/author/kiyoshi-rocks/index.html</loc>
-    <lastmod>2018-04-27T19:11:46+08:00</lastmod>
+    <lastmod>2018-05-13T14:11:29+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
